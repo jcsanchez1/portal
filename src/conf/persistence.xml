@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="portalPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entidad.Carreras</class>
+    <class>entidad.Saldos</class>
+    <class>entidad.ForoSecciones</class>
+    <class>entidad.ClasesPlanesEstudio</class>
+    <class>entidad.RespuestasPruebasAlumnos</class>
+    <class>entidad.PreguntasVofs</class>
+    <class>entidad.RespuestasMultiples</class>
+    <class>entidad.PersonalRegisto</class>
+    <class>entidad.TareasAlumnos</class>
+    <class>entidad.TiposReclamos</class>
+    <class>entidad.PeriodoActual</class>
+    <class>entidad.InfoUniveridades</class>
+    <class>entidad.Alumnos</class>
+    <class>entidad.Secciones</class>
+    <class>entidad.PreguntasMultiples</class>
+    <class>entidad.Modalidades</class>
+    <class>entidad.TareasSecciones</class>
+    <class>entidad.Clases</class>
+    <class>entidad.PreguntasPruebasSecciones</class>
+    <class>entidad.ArreglosPagos</class>
+    <class>entidad.PruebasSecciones</class>
+    <class>entidad.Reclamos</class>
+    <class>entidad.RespuestasForos</class>
+    <class>entidad.RespuestasBreves</class>
+    <class>entidad.Orientaciones</class>
+    <class>entidad.Sedes</class>
+    <class>entidad.ActividadesClases</class>
+    <class>entidad.PreguntasBreves</class>
+    <class>entidad.PlanesEstudios</class>
+    <class>entidad.RespuestasVofs</class>
+    <class>entidad.Maestros</class>
+    <class>entidad.AlumnosSecciones</class>
+    <class>entidad.Pagos</class>
+    <class>entidad.PruebasAlumnos</class>
+    <class>entidad.CarrerasAlumnos</class>
+    <class>entidad.Usuarios</class>
+    <class>entidad.TiposDeUsuario</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="JC"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="1234"/>
+    </properties>
+  </persistence-unit>
+</persistence>
